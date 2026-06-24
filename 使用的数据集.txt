@@ -1,0 +1,15 @@
+PU_CLASSES_10: List[str] = [
+    'K001',                     # 健康 1
+    'KA01', 'KA03', 'KA04',     # 外圈 3
+    'KB23', 'KB24', 'KB27',     # 滚动体 3
+    'KI01', 'KI03', 'KI04',     # 内圈 3
+]
+
+
+CWRU_CLASSES: List[str] = [
+    'normal_0_97',                                                  # 健康
+    '12k_Drive_End_B007_0_118',  '12k_Drive_End_B014_0_185',  '12k_Drive_End_B021_0_222',   # 滚动体 ×3
+    '12k_Drive_End_IR007_0_105', '12k_Drive_End_IR014_0_169', '12k_Drive_End_IR021_0_209',  # 内圈 ×3
+    '12k_Drive_End_OR007@6_0_130', '12k_Drive_End_OR014@6_0_197', '12k_Drive_End_OR021@6_0_234',  # 外圈 ×3
+
+config.py中设置制定读取
